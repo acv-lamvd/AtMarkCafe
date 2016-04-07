@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SPMC-test-suite" duration-ms="1452896" started-at="2016-04-07T10:19:27Z" finished-at="2016-04-07T10:43:40Z">
+    <groups>
+    </groups>
+    <test name="Atmarkcafe-SPMC" duration-ms="1452896" started-at="2016-04-07T10:19:27Z" finished-at="2016-04-07T10:43:40Z">
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromCartMissingState">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingState@6debcae2]" name="beforeMethod" is-config="true" duration-ms="44731" started-at="2016-04-07T17:31:20Z" finished-at="2016-04-07T17:32:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createAddressFromCartMissingState()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingState@6debcae2]" name="createAddressFromCartMissingState" duration-ms="61310" started-at="2016-04-07T17:32:05Z" finished-at="2016-04-07T17:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAddressFromCartMissingState -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingState@6debcae2]" name="afterMethod" is-config="true" duration-ms="5438" started-at="2016-04-07T17:33:06Z" finished-at="2016-04-07T17:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromCartMissingState -->
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromCartWrongTelephone">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartWrongTelephone@3f0ee7cb]" name="beforeMethod" is-config="true" duration-ms="53036" started-at="2016-04-07T17:39:37Z" finished-at="2016-04-07T17:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createAddressFromCartWrongTelephone()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartWrongTelephone@3f0ee7cb]" name="createAddressFromCartWrongTelephone" duration-ms="63139" started-at="2016-04-07T17:40:30Z" finished-at="2016-04-07T17:41:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAddressFromCartWrongTelephone -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartWrongTelephone@3f0ee7cb]" name="afterMethod" is-config="true" duration-ms="5226" started-at="2016-04-07T17:41:33Z" finished-at="2016-04-07T17:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromCartWrongTelephone -->
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromCartMissingRegisterName">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingRegisterName@4cdbe50f]" name="beforeMethod" is-config="true" duration-ms="51740" started-at="2016-04-07T17:21:29Z" finished-at="2016-04-07T17:22:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createAddressFromCartMissingRegisterName()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingRegisterName@4cdbe50f]" name="createAddressFromCartMissingRegisterName" duration-ms="62448" started-at="2016-04-07T17:22:21Z" finished-at="2016-04-07T17:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAddressFromCartMissingRegisterName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingRegisterName@4cdbe50f]" name="afterMethod" is-config="true" duration-ms="5171" started-at="2016-04-07T17:23:24Z" finished-at="2016-04-07T17:23:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromCartMissingRegisterName -->
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromCartSameRegName">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartSameRegName@75bd9247]" name="beforeMethod" is-config="true" duration-ms="55430" started-at="2016-04-07T17:41:38Z" finished-at="2016-04-07T17:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createAddressFromCartSameRegName()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartSameRegName@75bd9247]" name="createAddressFromCartSameRegName" duration-ms="61683" started-at="2016-04-07T17:42:33Z" finished-at="2016-04-07T17:43:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAddressFromCartSameRegName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartSameRegName@75bd9247]" name="afterMethod" is-config="true" duration-ms="5126" started-at="2016-04-07T17:43:35Z" finished-at="2016-04-07T17:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromCartSameRegName -->
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromCartMissingPostalCode">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingPostalCode@7e0babb1]" name="beforeMethod" is-config="true" duration-ms="48252" started-at="2016-04-07T17:29:24Z" finished-at="2016-04-07T17:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createAddressFromCartMissingPostalCode()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingPostalCode@7e0babb1]" name="createAddressFromCartMissingPostalCode" duration-ms="62902" started-at="2016-04-07T17:30:12Z" finished-at="2016-04-07T17:31:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAddressFromCartMissingPostalCode -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingPostalCode@7e0babb1]" name="afterMethod" is-config="true" duration-ms="5118" started-at="2016-04-07T17:31:15Z" finished-at="2016-04-07T17:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromCartMissingPostalCode -->
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromCartMissingTelephone">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingTelephone@2ff4f00f]" name="beforeMethod" is-config="true" duration-ms="61401" started-at="2016-04-07T17:35:13Z" finished-at="2016-04-07T17:36:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createAddressFromCartMissingTelephone()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingTelephone@2ff4f00f]" name="createAddressFromCartMissingTelephone" duration-ms="61877" started-at="2016-04-07T17:36:14Z" finished-at="2016-04-07T17:37:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAddressFromCartMissingTelephone -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingTelephone@2ff4f00f]" name="afterMethod" is-config="true" duration-ms="5171" started-at="2016-04-07T17:37:16Z" finished-at="2016-04-07T17:37:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromCartMissingTelephone -->
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromCart">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCart@45c8e616]" name="beforeMethod" is-config="true" duration-ms="53033" started-at="2016-04-07T17:19:27Z" finished-at="2016-04-07T17:20:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createAddressFromCart()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCart@45c8e616]" name="createAddressFromCart" duration-ms="63785" started-at="2016-04-07T17:20:20Z" finished-at="2016-04-07T17:21:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAddressFromCart -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCart@45c8e616]" name="afterMethod" is-config="true" duration-ms="5184" started-at="2016-04-07T17:21:24Z" finished-at="2016-04-07T17:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromCart -->
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromCartMissingLastName">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingLastName@66d33a]" name="beforeMethod" is-config="true" duration-ms="57275" started-at="2016-04-07T17:23:29Z" finished-at="2016-04-07T17:24:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createAddressFromCartMissingLastName()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingLastName@66d33a]" name="createAddressFromCartMissingLastName" duration-ms="171175" started-at="2016-04-07T17:24:26Z" finished-at="2016-04-07T17:27:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAddressFromCartMissingLastName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingLastName@66d33a]" name="afterMethod" is-config="true" duration-ms="5642" started-at="2016-04-07T17:27:17Z" finished-at="2016-04-07T17:27:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromCartMissingLastName -->
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromCartMissingFirstName">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingFirstName@7cf10a6f]" name="beforeMethod" is-config="true" duration-ms="55187" started-at="2016-04-07T17:27:23Z" finished-at="2016-04-07T17:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createAddressFromCartMissingFirstName()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingFirstName@7cf10a6f]" name="createAddressFromCartMissingFirstName" duration-ms="60521" started-at="2016-04-07T17:28:18Z" finished-at="2016-04-07T17:29:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAddressFromCartMissingFirstName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingFirstName@7cf10a6f]" name="afterMethod" is-config="true" duration-ms="5124" started-at="2016-04-07T17:29:19Z" finished-at="2016-04-07T17:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromCartMissingFirstName -->
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromCartMissingCity">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingCity@5ba23b66]" name="beforeMethod" is-config="true" duration-ms="53958" started-at="2016-04-07T17:33:11Z" finished-at="2016-04-07T17:34:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createAddressFromCartMissingCity()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingCity@5ba23b66]" name="createAddressFromCartMissingCity" duration-ms="62363" started-at="2016-04-07T17:34:05Z" finished-at="2016-04-07T17:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAddressFromCartMissingCity -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartMissingCity@5ba23b66]" name="afterMethod" is-config="true" duration-ms="5224" started-at="2016-04-07T17:35:08Z" finished-at="2016-04-07T17:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromCartMissingCity -->
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromCartWrongPostalCode">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartWrongPostalCode@c818063]" name="beforeMethod" is-config="true" duration-ms="64995" started-at="2016-04-07T17:37:21Z" finished-at="2016-04-07T17:38:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createAddressFromCartWrongPostalCode()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartWrongPostalCode@c818063]" name="createAddressFromCartWrongPostalCode" duration-ms="65085" started-at="2016-04-07T17:38:26Z" finished-at="2016-04-07T17:39:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAddressFromCartWrongPostalCode -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AutomationFramework.CreateAddress.CreateAddressFromCartWrongPostalCode@c818063]" name="afterMethod" is-config="true" duration-ms="5109" started-at="2016-04-07T17:39:31Z" finished-at="2016-04-07T17:39:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromCartWrongPostalCode -->
+    </test> <!-- Atmarkcafe-SPMC -->
+  </suite> <!-- SPMC-test-suite -->
+</testng-results>

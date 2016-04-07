@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="SPMC-test-suite">
+  <test verbose="2" name="Atmarkcafe-SPMC">
+    <classes>
+      <class name="AutomationFramework.LogIn.FrontEndLogInSuccess"/>
+      <class name="AutomationFramework.LogIn.FrontEndLogOut"/>
+    </classes>
+  </test> <!-- Atmarkcafe-SPMC -->
+</suite> <!-- SPMC-test-suite -->

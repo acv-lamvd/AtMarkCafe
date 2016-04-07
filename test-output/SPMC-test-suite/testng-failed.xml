@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SPMC-test-suite]">
+  <test name="Atmarkcafe-SPMC(failed)">
+    <classes>
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingPostalCode">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingPostalCode -->
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingCity">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingCity -->
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddressSameRegName">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromMyAddressSameRegName -->
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingRegisterName">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingRegisterName -->
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingState">
+        <methods>
+          <include name="createAddressFromMyAddressMissingState"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingState -->
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingTelephone">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingTelephone -->
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddress">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromMyAddress -->
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddressWrongPostalCode">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromMyAddressWrongPostalCode -->
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingLastName">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="createAddressFromMyAddressMissingLastName"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingLastName -->
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingFirstName">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="createAddressFromMyAddressMissingFirstName"/>
+        </methods>
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingFirstName -->
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddressWrongTelephone">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- AutomationFramework.CreateAddress.CreateAddressFromMyAddressWrongTelephone -->
+    </classes>
+  </test> <!-- Atmarkcafe-SPMC(failed) -->
+</suite> <!-- Failed suite [SPMC-test-suite] -->

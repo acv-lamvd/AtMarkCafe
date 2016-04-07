@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="SPMC-test-suite">
+  <test verbose="2" name="Atmarkcafe-SPMC">
+    <classes>
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddress"/>
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingRegisterName"/>
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingLastName"/>
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingFirstName"/>
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingPostalCode"/>
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingState"/>
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingCity"/>
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddressMissingTelephone"/>
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddressWrongPostalCode"/>
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddressWrongTelephone"/>
+      <class name="AutomationFramework.CreateAddress.CreateAddressFromMyAddressSameRegName"/>
+    </classes>
+  </test> <!-- Atmarkcafe-SPMC -->
+</suite> <!-- SPMC-test-suite -->

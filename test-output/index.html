@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SPMC-test-suite">
+              <span class="suite-name border-passed">SPMC-test-suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SPMC-test-suite">
+                    <span>testngCreateAddressFromCart.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SPMC-test-suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SPMC-test-suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SPMC-test-suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SPMC-test-suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SPMC-test-suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SPMC-test-suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SPMC-test-suite" class="hide-methods passed suite-SPMC-test-suite"> (hide)</a> <!-- hide-methods passed suite-SPMC-test-suite -->
+                      <a href="#" panel-name="suite-SPMC-test-suite" class="show-methods passed suite-SPMC-test-suite"> (show)</a> <!-- show-methods passed suite-SPMC-test-suite -->
+                    </span>
+                    <div class="method-list-content passed suite-SPMC-test-suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SPMC-test-suite" title="AutomationFramework.CreateAddress.CreateAddressFromCart" hash-for-method="createAddressFromCart">createAddressFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SPMC-test-suite" title="AutomationFramework.CreateAddress.CreateAddressFromCartMissingCity" hash-for-method="createAddressFromCartMissingCity">createAddressFromCartMissingCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SPMC-test-suite" title="AutomationFramework.CreateAddress.CreateAddressFromCartMissingFirstName" hash-for-method="createAddressFromCartMissingFirstName">createAddressFromCartMissingFirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SPMC-test-suite" title="AutomationFramework.CreateAddress.CreateAddressFromCartMissingLastName" hash-for-method="createAddressFromCartMissingLastName">createAddressFromCartMissingLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SPMC-test-suite" title="AutomationFramework.CreateAddress.CreateAddressFromCartMissingPostalCode" hash-for-method="createAddressFromCartMissingPostalCode">createAddressFromCartMissingPostalCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SPMC-test-suite" title="AutomationFramework.CreateAddress.CreateAddressFromCartMissingRegisterName" hash-for-method="createAddressFromCartMissingRegisterName">createAddressFromCartMissingRegisterName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SPMC-test-suite" title="AutomationFramework.CreateAddress.CreateAddressFromCartMissingState" hash-for-method="createAddressFromCartMissingState">createAddressFromCartMissingState</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SPMC-test-suite" title="AutomationFramework.CreateAddress.CreateAddressFromCartMissingTelephone" hash-for-method="createAddressFromCartMissingTelephone">createAddressFromCartMissingTelephone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SPMC-test-suite" title="AutomationFramework.CreateAddress.CreateAddressFromCartSameRegName" hash-for-method="createAddressFromCartSameRegName">createAddressFromCartSameRegName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SPMC-test-suite" title="AutomationFramework.CreateAddress.CreateAddressFromCartWrongPostalCode" hash-for-method="createAddressFromCartWrongPostalCode">createAddressFromCartWrongPostalCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SPMC-test-suite" title="AutomationFramework.CreateAddress.CreateAddressFromCartWrongTelephone" hash-for-method="createAddressFromCartWrongTelephone">createAddressFromCartWrongTelephone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SPMC-test-suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SPMC-test-suite" class="panel SPMC-test-suite">
+          <div class="suite-SPMC-test-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AutomationFramework.CreateAddress.CreateAddressFromCartMissingPostalCode</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAddressFromCartMissingPostalCode">
+                  </a> <!-- createAddressFromCartMissingPostalCode -->
+                  <span class="method-name">createAddressFromCartMissingPostalCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SPMC-test-suite-class-passed -->
+          <div class="suite-SPMC-test-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AutomationFramework.CreateAddress.CreateAddressFromCartMissingCity</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAddressFromCartMissingCity">
+                  </a> <!-- createAddressFromCartMissingCity -->
+                  <span class="method-name">createAddressFromCartMissingCity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SPMC-test-suite-class-passed -->
+          <div class="suite-SPMC-test-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AutomationFramework.CreateAddress.CreateAddressFromCartSameRegName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAddressFromCartSameRegName">
+                  </a> <!-- createAddressFromCartSameRegName -->
+                  <span class="method-name">createAddressFromCartSameRegName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SPMC-test-suite-class-passed -->
+          <div class="suite-SPMC-test-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AutomationFramework.CreateAddress.CreateAddressFromCartMissingRegisterName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAddressFromCartMissingRegisterName">
+                  </a> <!-- createAddressFromCartMissingRegisterName -->
+                  <span class="method-name">createAddressFromCartMissingRegisterName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SPMC-test-suite-class-passed -->
+          <div class="suite-SPMC-test-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AutomationFramework.CreateAddress.CreateAddressFromCartMissingState</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAddressFromCartMissingState">
+                  </a> <!-- createAddressFromCartMissingState -->
+                  <span class="method-name">createAddressFromCartMissingState</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SPMC-test-suite-class-passed -->
+          <div class="suite-SPMC-test-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AutomationFramework.CreateAddress.CreateAddressFromCartMissingTelephone</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAddressFromCartMissingTelephone">
+                  </a> <!-- createAddressFromCartMissingTelephone -->
+                  <span class="method-name">createAddressFromCartMissingTelephone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SPMC-test-suite-class-passed -->
+          <div class="suite-SPMC-test-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AutomationFramework.CreateAddress.CreateAddressFromCartWrongPostalCode</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAddressFromCartWrongPostalCode">
+                  </a> <!-- createAddressFromCartWrongPostalCode -->
+                  <span class="method-name">createAddressFromCartWrongPostalCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SPMC-test-suite-class-passed -->
+          <div class="suite-SPMC-test-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AutomationFramework.CreateAddress.CreateAddressFromCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAddressFromCart">
+                  </a> <!-- createAddressFromCart -->
+                  <span class="method-name">createAddressFromCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SPMC-test-suite-class-passed -->
+          <div class="suite-SPMC-test-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AutomationFramework.CreateAddress.CreateAddressFromCartMissingLastName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAddressFromCartMissingLastName">
+                  </a> <!-- createAddressFromCartMissingLastName -->
+                  <span class="method-name">createAddressFromCartMissingLastName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SPMC-test-suite-class-passed -->
+          <div class="suite-SPMC-test-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AutomationFramework.CreateAddress.CreateAddressFromCartMissingFirstName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAddressFromCartMissingFirstName">
+                  </a> <!-- createAddressFromCartMissingFirstName -->
+                  <span class="method-name">createAddressFromCartMissingFirstName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SPMC-test-suite-class-passed -->
+          <div class="suite-SPMC-test-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AutomationFramework.CreateAddress.CreateAddressFromCartWrongTelephone</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAddressFromCartWrongTelephone">
+                  </a> <!-- createAddressFromCartWrongTelephone -->
+                  <span class="method-name">createAddressFromCartWrongTelephone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SPMC-test-suite-class-passed -->
+        </div> <!-- panel SPMC-test-suite -->
+        <div panel-name="test-xml-SPMC-test-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/LamLT/Documents/workspace/AtMarkCafe/test-output/testngCreateAddressFromCart.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;SPMC-test-suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Atmarkcafe-SPMC&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;AutomationFramework.CreateAddress.CreateAddressFromCart&quot;/&gt;
+      &lt;class name=&quot;AutomationFramework.CreateAddress.CreateAddressFromCartMissingRegisterName&quot;/&gt;
+      &lt;class name=&quot;AutomationFramework.CreateAddress.CreateAddressFromCartMissingLastName&quot;/&gt;
+      &lt;class name=&quot;AutomationFramework.CreateAddress.CreateAddressFromCartMissingFirstName&quot;/&gt;
+      &lt;class name=&quot;AutomationFramework.CreateAddress.CreateAddressFromCartMissingPostalCode&quot;/&gt;
+      &lt;class name=&quot;AutomationFramework.CreateAddress.CreateAddressFromCartMissingState&quot;/&gt;
+      &lt;class name=&quot;AutomationFramework.CreateAddress.CreateAddressFromCartMissingCity&quot;/&gt;
+      &lt;class name=&quot;AutomationFramework.CreateAddress.CreateAddressFromCartMissingTelephone&quot;/&gt;
+      &lt;class name=&quot;AutomationFramework.CreateAddress.CreateAddressFromCartWrongPostalCode&quot;/&gt;
+      &lt;class name=&quot;AutomationFramework.CreateAddress.CreateAddressFromCartWrongTelephone&quot;/&gt;
+      &lt;class name=&quot;AutomationFramework.CreateAddress.CreateAddressFromCartSameRegName&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Atmarkcafe-SPMC --&gt;
+&lt;/suite&gt; &lt;!-- SPMC-test-suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SPMC-test-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SPMC-test-suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Atmarkcafe-SPMC (11 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SPMC-test-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SPMC-test-suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SPMC-test-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SPMC-test-suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SPMC-test-suite');
+function tableData_SPMC-test-suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createAddressFromCartMissingLastName')
+data.setCell(0, 2, 'AutomationFramework.CreateAddress.CreateAddressFromCartMissingLastName')
+data.setCell(0, 3, 171175);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createAddressFromCartWrongPostalCode')
+data.setCell(1, 2, 'AutomationFramework.CreateAddress.CreateAddressFromCartWrongPostalCode')
+data.setCell(1, 3, 65085);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createAddressFromCart')
+data.setCell(2, 2, 'AutomationFramework.CreateAddress.CreateAddressFromCart')
+data.setCell(2, 3, 63785);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createAddressFromCartWrongTelephone')
+data.setCell(3, 2, 'AutomationFramework.CreateAddress.CreateAddressFromCartWrongTelephone')
+data.setCell(3, 3, 63139);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createAddressFromCartMissingPostalCode')
+data.setCell(4, 2, 'AutomationFramework.CreateAddress.CreateAddressFromCartMissingPostalCode')
+data.setCell(4, 3, 62902);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createAddressFromCartMissingRegisterName')
+data.setCell(5, 2, 'AutomationFramework.CreateAddress.CreateAddressFromCartMissingRegisterName')
+data.setCell(5, 3, 62448);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createAddressFromCartMissingCity')
+data.setCell(6, 2, 'AutomationFramework.CreateAddress.CreateAddressFromCartMissingCity')
+data.setCell(6, 3, 62363);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createAddressFromCartMissingTelephone')
+data.setCell(7, 2, 'AutomationFramework.CreateAddress.CreateAddressFromCartMissingTelephone')
+data.setCell(7, 3, 61877);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'createAddressFromCartSameRegName')
+data.setCell(8, 2, 'AutomationFramework.CreateAddress.CreateAddressFromCartSameRegName')
+data.setCell(8, 3, 61683);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'createAddressFromCartMissingState')
+data.setCell(9, 2, 'AutomationFramework.CreateAddress.CreateAddressFromCartMissingState')
+data.setCell(9, 3, 61310);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'createAddressFromCartMissingFirstName')
+data.setCell(10, 2, 'AutomationFramework.CreateAddress.CreateAddressFromCartMissingFirstName')
+data.setCell(10, 3, 60521);
+window.suiteTableData['SPMC-test-suite']= { tableData: data, tableDiv: 'times-div-SPMC-test-suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 minutes</span>
+              <div id="times-div-SPMC-test-suite">
+              </div> <!-- times-div-SPMC-test-suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SPMC-test-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SPMC-test-suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SPMC-test-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SPMC-test-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationFramework.CreateAddress.CreateAddressFromCart</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAddressFromCart</span>
+                <span class="method-start">53033 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">116819 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationFramework.CreateAddress.CreateAddressFromCartMissingRegisterName</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">122005 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAddressFromCartMissingRegisterName</span>
+                <span class="method-start">173745 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">236193 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationFramework.CreateAddress.CreateAddressFromCartMissingLastName</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">241365 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAddressFromCartMissingLastName</span>
+                <span class="method-start">298640 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">469816 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationFramework.CreateAddress.CreateAddressFromCartMissingFirstName</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">475458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAddressFromCartMissingFirstName</span>
+                <span class="method-start">530645 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">591167 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationFramework.CreateAddress.CreateAddressFromCartMissingPostalCode</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">596291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAddressFromCartMissingPostalCode</span>
+                <span class="method-start">644543 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">707446 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationFramework.CreateAddress.CreateAddressFromCartMissingState</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">712565 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAddressFromCartMissingState</span>
+                <span class="method-start">757296 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">818607 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationFramework.CreateAddress.CreateAddressFromCartMissingCity</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">824046 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAddressFromCartMissingCity</span>
+                <span class="method-start">878004 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">940368 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationFramework.CreateAddress.CreateAddressFromCartMissingTelephone</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">945592 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAddressFromCartMissingTelephone</span>
+                <span class="method-start">1006994 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1068873 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationFramework.CreateAddress.CreateAddressFromCartWrongPostalCode</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1074044 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAddressFromCartWrongPostalCode</span>
+                <span class="method-start">1139039 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1204124 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationFramework.CreateAddress.CreateAddressFromCartWrongTelephone</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1209233 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAddressFromCartWrongTelephone</span>
+                <span class="method-start">1262269 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1325409 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationFramework.CreateAddress.CreateAddressFromCartSameRegName</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1330635 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAddressFromCartSameRegName</span>
+                <span class="method-start">1386065 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1447748 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
